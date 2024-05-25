@@ -1,9 +1,13 @@
-﻿namespace PlayerData.Domain
+﻿using System;
+using UnityEngine;
+
+namespace PlayerData.Domain
 {
+    [Serializable]
     public sealed class ConsumableItem
     {
-        public string Name { get; private set; }
-        public long Amount { get; private set; }
+        [field: SerializeField] public string Name { get; private set; }
+        [field: SerializeField] public long Amount { get; private set; }
 
         public ConsumableItem(string name, long amount)
         {

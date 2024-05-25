@@ -1,12 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace PlayerData.Domain
 {
+    [Serializable]
     public sealed class ConsumableData
     {
-        public List<ConsumableItem> ConsumableItems { get; private set; }
+        [field: SerializeField] public List<ConsumableItem> ConsumableItems { get; private set; }
 
         public ConsumableItem this[string consumableName] => FindConsumableItem(consumableName);
 
