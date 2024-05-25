@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using PlayerData.Domain;
 using TMPro;
 using UnityEngine;
-// using Zenject;
+using Zenject;
 
 namespace PlayerData.Presentation
 {
@@ -14,7 +14,7 @@ namespace PlayerData.Presentation
         private PlayerDataController _playerDataController;
         private List<IDisposable> _disposables;
 
-        // [Inject]
+        [Inject]
         private void Construct(PlayerDataController playerDataController)
         {
             _playerDataController = playerDataController;
