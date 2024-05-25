@@ -4,16 +4,7 @@
       "version": "file:com.hayricakir.playerdata",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {
-        "com.svermeulen.extenject": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source"
-      }
-    },
-    "com.svermeulen.extenject": {
-      "version": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "574bdc68aec50fa373abfd8d6c7bf5767b0ffd3d"
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "2.0.7",

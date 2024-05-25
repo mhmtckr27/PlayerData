@@ -1,0 +1,18 @@
+{
+    "name": "PlayerData.Infrastructure",
+    "rootNamespace": "PlayerData",
+    "references": [
+        "GUID:ae32a27e0a0f4b60a701ac6d27633220",
+        "GUID:a70b138619924cf2ae69fcafca442bcc",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

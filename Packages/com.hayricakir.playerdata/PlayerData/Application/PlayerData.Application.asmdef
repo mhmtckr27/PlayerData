@@ -1,0 +1,5 @@
+﻿{
+  "name": "PlayerData.Application",
+  "rootNamespace": "PlayerData",
+  "references":[ "GUID:a70b138619924cf2ae69fcafca442bcc" ]
+}

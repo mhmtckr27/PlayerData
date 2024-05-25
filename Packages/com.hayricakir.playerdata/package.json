@@ -8,17 +8,16 @@
   "documentationUrl": "https://www.mehmethayricakir.com",
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
-  "dependencies": {
-    "com.svermeulen.extenject": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source"
-  },
   "keywords": [
     "playerdata",
     "consumabledata",
     "hayri"
   ],
   "author": {
-    "name": "Mehmet Hayri Çakır",
+    "name": "Mehmet Hayri Cakir",
     "email": "mehmethayricakir@gmail.com",
     "url": "https://www.mehmethayricakir.com"
+  },
+  "dependencies": {
   }
 }
