@@ -1,0 +1,24 @@
+{
+  "name": "com.mehmethayricakir.playerdata",
+  "version": "0.1.0",
+  "displayName": "Player Data",
+  "description": "This is a simple player data package",
+  "unity": "2022.3",
+  "unityRelease": "10f1",
+  "documentationUrl": "https://www.mehmethayricakir.com",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.svermeulen.extenject": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source"
+  },
+  "keywords": [
+    "playerdata",
+    "consumabledata",
+    "hayri"
+  ],
+  "author": {
+    "name": "Mehmet Hayri Çakır",
+    "email": "mehmethayricakir@gmail.com",
+    "url": "https://www.mehmethayricakir.com"
+  }
+}

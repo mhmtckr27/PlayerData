@@ -1,20 +1,12 @@
 {
   "dependencies": {
-    "com.cysharp.r3": {
-      "version": "https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity",
+    "com.mehmethayricakir.playerdata": {
+      "version": "file:com.hayricakir.playerdata",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
-        "com.unity.modules.imgui": "1.0.0"
-      },
-      "hash": "b245f9f108adff918e8f735a2ff754bb2c619dd0"
-    },
-    "com.github-glitchenzo.nugetforunity": {
-      "version": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "e74a84218512a229aac65488404a7a412cb86fa4"
+        "com.svermeulen.extenject": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source"
+      }
     },
     "com.svermeulen.extenject": {
       "version": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source",

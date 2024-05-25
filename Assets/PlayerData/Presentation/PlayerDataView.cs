@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using PlayerData.Domain;
-using R3;
 using TMPro;
 using UnityEngine;
 using Zenject;

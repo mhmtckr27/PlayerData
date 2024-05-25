@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using R3;
 
 namespace PlayerData.Domain
 {
