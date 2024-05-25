@@ -29,6 +29,7 @@ namespace PlayerData.Presentation
         private void OnPlayerDataChanged(Domain.PlayerData playerData)
         {
             text.text = playerData.ToString();
+            Debug.Log(text.text);
         }
 
         private void Update()
@@ -96,11 +97,6 @@ namespace PlayerData.Presentation
                     ConsumableItems = { new ConsumableItem("CHR", 1) }
                 });
             }
-        }
-
-        private void LateUpdate()
-        {
-            Debug.Log(_playerDataController.ToString());
         }
     }
 }
