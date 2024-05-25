@@ -1,0 +1,4 @@
+﻿{
+  "name": "PlayerData.Application",
+  "references":[ "GUID:a70b138619924cf2ae69fcafca442bcc" ]
+}
