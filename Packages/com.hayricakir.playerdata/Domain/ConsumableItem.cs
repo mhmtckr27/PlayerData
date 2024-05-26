@@ -32,6 +32,16 @@ namespace PlayerData.Domain
             return new ConsumableItem(Name, Amount);
         }
 
+        public void SetName(string newName)
+        {
+            Name = newName;
+        }
+
+        public void SetAmount(long newAmount)
+        {
+            Amount = newAmount;
+        }
+
         public override string ToString()
         {
             return $"{Name}\t\t{Amount}";
