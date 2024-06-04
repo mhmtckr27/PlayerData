@@ -8,6 +8,7 @@ namespace PlayerData.Application
         void Add(ConsumableData toAdd);
         void Remove(ConsumableData toRemove);
         bool Contains(ConsumableData otherConsumableData);
+        bool Equals(ConsumableData otherConsumableData);
         event Action<ConsumableData, ConsumableData> OnChanged;
         string ToString();
     }

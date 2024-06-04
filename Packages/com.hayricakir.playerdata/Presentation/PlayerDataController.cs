@@ -35,6 +35,11 @@ namespace PlayerData.Presentation
             return _consumableDataRepository.Contains(consumableData);
         }
 
+        public bool EqualsConsumables(ConsumableData consumableData)
+        {
+            return _consumableDataRepository.Equals(consumableData);
+        }
+
         public override string ToString()
         {
             return _playerDataRepository.ToString();

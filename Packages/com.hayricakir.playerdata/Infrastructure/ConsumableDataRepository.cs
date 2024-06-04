@@ -75,6 +75,22 @@ namespace PlayerData.Infrastructure
             return true;
         }
         
+        public bool Equals(ConsumableData otherConsumableData)
+        {
+            foreach (var otherConsumableItem in otherConsumableData.ConsumableItems)
+            {
+                var foundItem = _consumableData[otherConsumableItem.Name];
+
+                if (foundItem == null)
+                    return false;
+
+                if (foundItem.Amount != otherConsumableItem.Amount)
+                    return false;
+            }
+
+            return true;
+        }
+        
         public override string ToString()
         {
             return _consumableData.ToString();
