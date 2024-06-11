@@ -16,14 +16,7 @@ namespace PlayerData.Presentation
 
         public PlayerDataController(IPlayerDataRepository playerDataRepository)
         {
-            if (Instance == null)
-            {
-                Instance = this;
-            }
-            else if (Instance != this)
-            {
-                return;
-            }
+            Instance = this;
             
             _playerDataRepository = playerDataRepository;
             _playerData = _playerDataRepository.GetPlayerData();
